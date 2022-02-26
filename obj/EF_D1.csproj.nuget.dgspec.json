@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj": {}
+    "d:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj": {}
   },
   "projects": {
-    "D:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj": {
+    "d:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj",
+        "projectUniqueName": "d:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj",
         "projectName": "EF_D1",
-        "projectPath": "D:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj",
+        "projectPath": "d:\\thực tập\\EF\\D1\\EF_D1\\EF_D1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\thực tập\\EF\\D1\\EF_D1\\obj\\",
+        "outputPath": "d:\\thực tập\\EF\\D1\\EF_D1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,8 @@
               "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.2, )"
             },
